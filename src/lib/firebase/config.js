@@ -16,3 +16,5 @@ Object.keys(config).forEach((key) => {
 });
 
 export const firebaseConfig = config;
+
+console.log(process.env.firebaseConfig)
